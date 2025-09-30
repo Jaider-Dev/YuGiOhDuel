@@ -1,0 +1,37 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### Compilados ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+target/
+build/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Archivos del sistema ###
+.DS_Store
+Thumbs.db
+
