@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="co.edu.univalle.desarrolloIII.YuGIOhApi.GUI.YuGiOhDuelGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="1496" height="736"/>
+    </constraints>
+    <properties>
+      <background color="-14803409"/>
+      <enabled value="false"/>
+      <foreground color="-14803409"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3550a" binding="playerPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="500"/>
+            <preferred-size width="-1" height="500"/>
+            <maximum-size width="-1" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13882308"/>
+          <foreground color="-10496"/>
+        </properties>
+        <border type="line">
+          <color color="-10496"/>
+        </border>
+        <children>
+          <component id="9e31d" class="javax.swing.JLabel" binding="playerLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="24" style="1"/>
+              <foreground color="-2047896"/>
+              <text value="Player"/>
+            </properties>
+          </component>
+          <grid id="e4c01" binding="playerPanelCard1" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+            </properties>
+            <border type="line">
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="3c2b2" class="javax.swing.JLabel" binding="playerImgCard1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="120" height="160"/>
+                    <preferred-size width="120" height="160"/>
+                    <maximum-size width="120" height="160"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="99712" class="javax.swing.JButton" binding="play1">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="120" height="-1"/>
+                    <preferred-size width="120" height="-1"/>
+                    <maximum-size width="120" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-2078139"/>
+                  <font size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Play"/>
+                </properties>
+              </component>
+              <component id="6b803" class="javax.swing.JLabel" binding="playerLabelNameCard1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="6877" class="javax.swing.JLabel" binding="playerLabelAtakCard1">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="ffe5a" class="javax.swing.JLabel" binding="playerLabelDefCard1">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="5e873" class="javax.swing.JLabel" binding="playerNameCard1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7d1b4" class="javax.swing.JLabel" binding="playerAtakCard1">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ad846" class="javax.swing.JLabel" binding="playerDefCard1">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="dd9bf" binding="playerPanelCard2" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+            </properties>
+            <border type="line">
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="12095" class="javax.swing.JLabel" binding="playerImgCard2">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="75c49" class="javax.swing.JButton" binding="play2">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="120" height="-1"/>
+                    <preferred-size width="120" height="-1"/>
+                    <maximum-size width="120" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-2078139"/>
+                  <enabled value="true"/>
+                  <font size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Play"/>
+                </properties>
+              </component>
+              <component id="9d011" class="javax.swing.JLabel" binding="playerLabelNameCard2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="fd96" class="javax.swing.JLabel" binding="playerLabelAtakCard2">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="6f0c4" class="javax.swing.JLabel" binding="playerLabelDefCard2">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="25f2c" class="javax.swing.JLabel" binding="playerNameCard2">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4f936" class="javax.swing.JLabel" binding="playerAtakCard2">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="98c97" class="javax.swing.JLabel" binding="playerDefCard2">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4e95d" binding="panelPlayerCard3" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+            </properties>
+            <border type="line">
+              <title-color color="-2104859"/>
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="2350e" class="javax.swing.JLabel" binding="playerImgCard3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="d7b25" class="javax.swing.JButton" binding="play3">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="120" height="-1"/>
+                    <preferred-size width="120" height="-1"/>
+                    <maximum-size width="120" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-2078139"/>
+                  <font size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Play"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="be1ac" class="javax.swing.JLabel" binding="playerLabelNameCard3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="ff694" class="javax.swing.JLabel" binding="playerLabelAtakCard3">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="fca1c" class="javax.swing.JLabel" binding="playerLabelDefCard3">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="d0cc5" class="javax.swing.JLabel" binding="playerNameCard3">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7e4" class="javax.swing.JLabel" binding="playerAtakCard3">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a025c" class="javax.swing.JLabel" binding="playerDefCard3">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="f1d75" binding="cpuPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="500"/>
+            <preferred-size width="-1" height="500"/>
+            <maximum-size width="-1" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13882308"/>
+          <foreground color="-10496"/>
+        </properties>
+        <border type="line">
+          <color color="-10496"/>
+        </border>
+        <children>
+          <component id="e327a" class="javax.swing.JLabel" binding="cpuLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="24" style="1"/>
+              <foreground color="-2047896"/>
+              <text value="CPU"/>
+            </properties>
+          </component>
+          <grid id="70a48" binding="cpuPanelCard1" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+              <foreground color="-1"/>
+            </properties>
+            <border type="line">
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="844bb" class="javax.swing.JLabel" binding="cpuImgCard1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b67bd" class="javax.swing.JLabel" binding="cpuLabelNameCard1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="cde0" class="javax.swing.JLabel" binding="cpuLabelAtakCard1">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="c07ad" class="javax.swing.JLabel" binding="cpuLabelDefCard1">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="5606a" class="javax.swing.JLabel" binding="EmuButtonCard1">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="28297" class="javax.swing.JLabel" binding="cpuNameCard1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e4ecf" class="javax.swing.JLabel" binding="cpuAtakCard1">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="25660" class="javax.swing.JLabel" binding="cpuDefCard1">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="556a" binding="cpuPanelCard2" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+              <enabled value="false"/>
+              <foreground color="-2047896"/>
+            </properties>
+            <border type="line">
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="2b174" class="javax.swing.JLabel" binding="cpuImgCard2">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="c78c5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="fe1df" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="6de35" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="6a5ea" class="javax.swing.JLabel" binding="EmuButtonCard2">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4dedd" class="javax.swing.JLabel" binding="cpuDefCard2">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4b44b" class="javax.swing.JLabel" binding="cpuAtakCard2">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="3ebcb" class="javax.swing.JLabel" binding="cpuNameCard2">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c0836" binding="cpuPanelCard3" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="230" height="-1"/>
+                <preferred-size width="230" height="-1"/>
+                <maximum-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14803409"/>
+            </properties>
+            <border type="line">
+              <color color="-10496"/>
+            </border>
+            <children>
+              <component id="a76b" class="javax.swing.JLabel" binding="cpuImgCard3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/Dorso.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="84f78" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="8fe83" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Atak:"/>
+                </properties>
+              </component>
+              <component id="b0540" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="1"/>
+                  <foreground color="-2047896"/>
+                  <text value="Def:"/>
+                </properties>
+              </component>
+              <component id="ed8e9" class="javax.swing.JLabel" binding="EmuButtonCard3">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="89958" class="javax.swing.JLabel" binding="cpuNameCard3">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="3d519" class="javax.swing.JLabel" binding="cpuAtakCard3">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6f8d0" class="javax.swing.JLabel" binding="cpuDefCard3">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="fb7d" binding="logPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15658725"/>
+          <font name="Consolas" size="20" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="1e619" binding="Log">
+            <constraints>
+              <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="31"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="580f4" class="javax.swing.JTextArea" binding="LogTexArea">
+                <constraints/>
+                <properties>
+                  <background color="-13882308"/>
+                  <editable value="false"/>
+                  <font name="Consolas" size="18" style="0"/>
+                  <foreground color="-663885"/>
+                  <lineWrap value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="6ae6f" class="javax.swing.JLabel" binding="PlayerScoreLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <foreground color="-2047896"/>
+              <text value="Player Score:"/>
+            </properties>
+          </component>
+          <component id="9ff6f" class="javax.swing.JLabel" binding="playerScore">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <foreground color="-1"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="44c5" class="javax.swing.JLabel" binding="cpuScoreLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <foreground color="-2047896"/>
+              <text value="CPU Score:"/>
+            </properties>
+          </component>
+          <component id="55b15" class="javax.swing.JLabel" binding="cpuScore">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <foreground color="-1"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="49b6b" class="javax.swing.JButton" binding="startDuelButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2078139"/>
+              <font size="18" style="1"/>
+              <foreground color="-2047896"/>
+              <hideActionText value="false"/>
+              <text value="Start Duel"/>
+            </properties>
+          </component>
+          <component id="e0d4" class="javax.swing.JButton" binding="chooseCardButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2078139"/>
+              <font size="18" style="1"/>
+              <foreground color="-2047896"/>
+              <text value="Choose Card"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="c79e6" class="javax.swing.JLabel" binding="header">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <foreground color="-2047896"/>
+          <text value="Yu-Gi-Oh! Duel"/>
+        </properties>
+      </component>
+      <component id="2999e" class="javax.swing.JLabel" binding="logActivity">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="1"/>
+          <foreground color="-2047896"/>
+          <text value="Log activity"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
